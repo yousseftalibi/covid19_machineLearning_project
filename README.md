@@ -1,10 +1,28 @@
-Youssef TALBI
+Youssef TALBI 
 Introduction to artificial intelligence
 ISEP – 2022/2023
 
+Epidemiological data is needed during emerging epidemics to best monitor and anticipate spread of infection.
+The dataset has been made available publicly as of 20th January, 2020 containing different information about the patients: clinic, demographic and geographic. in a Github repository https://github.com/beoutbreakprepared/nCoV2019
+
+The goal of this project is to process this dataset using artificial intelligence methods in order to help the community to better understand the spread of the COVID-19 infection. 
+
+The project contains the following 4 parts: 
+1. Analysis of the dataset :
+In order to analyse the dataset, you have to extract some statistical information from the given dataset, for example: the type of data, the missing values, outliers, the correlation between  variables, etc. If there are missing values, you can replace them by the mean, median or mode of the concerning variable.
+
+2. Bayes Nets 
+In this part we will use Bayes model to compute some predictions from the data sets
+
+3. Machine Learning 
+In this part we use a machine learning method KNN in order to predict the outcome: patients outcome as either ‘died’ or ‘discharged’ from hospital. 
+
+4. Improving the results and Theoretical formalism
+
+
 
 COVID-19 Infection Analysis and Prediction project
- 
+
 1. Analysis of the dataset: 
  
 A Compute the correlations between the variables. Which variables are most correlated with the target (outcome) ? Explain the results
