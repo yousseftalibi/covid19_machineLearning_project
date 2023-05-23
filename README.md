@@ -1,6 +1,6 @@
-Youssef TALBI 
-Introduction to artificial intelligence
-ISEP – 2022/2023
+Youssef TALBI <br>
+Introduction to artificial intelligence <br>
+ISEP – 2022/2023 <br>
 
 Epidemiological data is needed during emerging epidemics to best monitor and anticipate spread of infection.
 The dataset has been made available publicly as of 20th January, 2020 containing different information about the patients: clinic, demographic and geographic. in a Github repository https://github.com/beoutbreakprepared/nCoV2019
