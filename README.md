@@ -50,21 +50,19 @@ For this question, we only consider numerical columns. We find:
 The targets most correlated with the outcome 'death' are 'from Wuhan' and 'age'. This is natural since Covid-19 has first appeared in Wuhan and is known to be more fatal for older population. This is an old dataset, referencing the early days of Covid-19 when it was mainly contained in Wuhan.
  
 
-![image](https://github.com/yousseftalibi/covid19_machineLearning_analysis-prediction/assets/58918607/d89e8062-8d94-4434-a07a-e576572d523a)
-
-
 B. Plot the dataset using scatter and analyse the obtained result. Use the PCA (Principal Component Analysis) to project the dataset.
  
 Before plotting, we standardize so they all have a mean of 0 and standard deviation of 1. We do this with the library StandardScaler from sklearn.
  
 the data Here we plot the age of people in function of their outcome 'death'. We find evenly distributed results in outcome 'survived' but almost all the 'dead' outcome are older than 40 years old. This points to the known fact that Covid-19 is rarely fatal to younger population.
  
-![image](https://github.com/yousseftalibi/covid19_machineLearning_analysis-prediction/assets/58918607/75078e8f-b008-4e16-9928-5dc5f354682a)
+ ![image](https://github.com/yousseftalibi/covid19_machineLearning_analysis-prediction/assets/58918607/d89e8062-8d94-4434-a07a-e576572d523a)
 
  
 Next, we look at the date when symptoms appeared in function to the outcome. We see that in the early days the spread of Covid-19 almost all outcomes are 'death', as time went by, medical practionners learned how to deal best with the virus. This may be the reason why people survived almost always. It may also be due to better habits from people, who with the passing of time, learnt to wear masks and wash their hands. 
  
- 
+ ![image](https://github.com/yousseftalibi/covid19_machineLearning_analysis-prediction/assets/58918607/75078e8f-b008-4e16-9928-5dc5f354682a)
+
  
 Finally we conclude this part with this PCA plot:
  
